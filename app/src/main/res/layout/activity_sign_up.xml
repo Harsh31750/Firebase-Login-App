@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SignInActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:hint="Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:hint="Email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:textSize="20sp"
+        android:inputType="numberPassword"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:hint="password"/>
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/sign_up"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@android:color/holo_green_dark"
+
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
